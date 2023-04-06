@@ -17,7 +17,6 @@ test('', async ({request}) => {
     expect(id).toBe(1);
     expect(title).toBeTruthy();
     expect(body).toBeTruthy();
-
 });
 
 
